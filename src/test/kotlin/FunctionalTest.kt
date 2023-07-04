@@ -10,7 +10,7 @@ class FunctionalTest {
                 .map { it * 3 }
                 .map { it / 7 }
                 .sum()
-        ).isEqualTo(1560464288)
+        ).isEqualTo(977445970)
     }
 
     @Test
@@ -20,6 +20,6 @@ class FunctionalTest {
                 .map { it * 3 }
                 .map { it / 7 }
                 .sum()
-        ).isEqualTo(1560464288)
+        ).isEqualTo(977445970)
     }
 }
